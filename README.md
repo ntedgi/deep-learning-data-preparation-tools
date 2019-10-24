@@ -1,7 +1,7 @@
 
 # deep-learning-data-preparation-tools
 
-## Fast Data Anotatorr
+## Fast Image Sorter
 
 a simple script to itrate on all images inside directory .click right if the image containig the label you looking for 
 or click left if it dosent make it simple to filter image from third party data set that contains tagging errors 
