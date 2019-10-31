@@ -56,7 +56,7 @@ class ImageSorter:
             self.current_image_path = image_path
             self.current_image_name = image_path.split("/")[-1]
             img = mpimg.imread(image_path)
-            plt.suptitle(f'progress: [ {counter}/{len(files)} ] , {self.label} :{self.right_click}  , not-{self.label} :{self.left_click}')
+            plt.suptitle(f'progress: [ {counter}/{len(files)} ] , <= not-{self.label} :{self.left_click} , {self.label} :{self.right_click}  =>')
             plt.title(f'press right if the picture contains {self.label} else press left.')
             plt.connect('key_press_event', self.toggle_images)
             plt.imshow(img)
